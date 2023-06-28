@@ -11,7 +11,7 @@ document.getElementById("box_personajes_principales").addEventListener('click', 
 
 })
 
-function injectHtml(json) {
+function injectHtml(json) { 
     const { name, height, mass } = json
 
     // let card = `
